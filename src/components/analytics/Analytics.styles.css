@@ -1,0 +1,19 @@
+.analytics_grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+  column-gap: 2rem;
+  row-gap: 5rem;
+}
+
+.analytics_grid-item1 {
+  grid-column: 1/3;
+  background-color: #fff;
+}
+
+.analytics_grid-item2 {
+  background-color: red;
+}
+.analytics_grid-item6 {
+  grid-column: 1/3;
+}

@@ -1,2 +1,78 @@
 .navigation_container {
+  /* background-color: #fff; */
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.navigation_searchBar {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  width: 30rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #c3c3c3;
+}
+
+.navigation_searchBar_icon {
+  position: absolute;
+  top: 2.5%;
+  left: 41.1%;
+  color: #fff;
+  background-color: #373737;
+  height: 1.6rem;
+  width: 3rem;
+  border-radius: 1rem;
+}
+
+.navigation_utility_iconsContainer {
+  margin-left: 27rem;
+}
+
+.navigation_utility_icon {
+  margin-left: 0.5rem;
+  font-size: 2rem;
+}
+
+.navigation_span {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1.9%;
+  right: 13.5%;
+  padding: 0.2rem 1.8rem;
+  padding-left: 0.5rem;
+  background-color: #c3c3c3;
+  border-radius: 0.3rem;
+}
+
+.navigation_profile_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 4%;
+  height: 2.5rem;
+  width: 7rem;
+  border: 0.1rem solid #000;
+}
+
+.navigation_profile_container span {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.navigation_utility_avatarIcon {
+  margin-left: 0.6rem;
+  font-size: 2rem;
+}
+
+.navigation_utility_arrowIcon {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2rem;
 }

@@ -3,6 +3,7 @@ import NavigationBar from "./components/navigationbar/Navigation.component";
 import Sidebar from "./components/sidebar/Sidebar.component";
 
 import "./App.css";
+import Analytics from "./components/analytics/Analytics.component";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       </div>
       <div className="otherItems">
         <NavigationBar />
+        <Analytics />
       </div>
     </div>
   );
