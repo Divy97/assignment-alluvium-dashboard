@@ -1,0 +1,16 @@
+.app_container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sideBar {
+  width: 11%;
+  float: left;
+  background-color: #fff;
+}
+
+.otherItems {
+  float: right;
+  width: 88%;
+}
