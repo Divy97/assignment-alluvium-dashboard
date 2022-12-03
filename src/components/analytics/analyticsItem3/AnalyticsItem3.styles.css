@@ -9,3 +9,17 @@
   height: 15rem;
   border-radius: 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .analyticsItem3_container {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 22rem;
+  }
+  .analyticsItem3_container {
+    padding: 25px;
+    width: auto;
+    height: 13rem;
+  }
+}

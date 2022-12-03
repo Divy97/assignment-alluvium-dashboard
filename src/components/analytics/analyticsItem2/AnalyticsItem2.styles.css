@@ -54,3 +54,25 @@
   top: 25%;
   right: 20%;
 }
+
+.analyticsItem2_para {
+  margin-left: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .analyticsItem2_container {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 22rem;
+  }
+
+  .analyticsItem2_para_main {
+    margin-right: 9.6rem;
+    margin-top: 3rem;
+  }
+
+  .analyticsItem2_stats {
+    margin-top: -11rem;
+  }
+}

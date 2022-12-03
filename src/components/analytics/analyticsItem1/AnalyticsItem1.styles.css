@@ -52,3 +52,30 @@
   text-align: center;
   margin-top: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .analyticsItem1_container {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 22rem;
+  }
+  .analyticsItem1_heading {
+    text-align: center;
+  }
+
+  .analyticsItem1_para {
+    text-align: center;
+  }
+
+  .stats_item {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .item1_icons,
+  .item1_span {
+    font-size: 1.3rem;
+    background-color: #c3c3c3;
+  }
+}
