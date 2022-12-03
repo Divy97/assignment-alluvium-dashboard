@@ -1,13 +1,11 @@
-import React from "react";
 import AnalyticsItem1 from "./analyticsItem1/AnalyticsItem1.component";
 import AnalyticsItem2 from "./analyticsItem2/AnalyticsItem2.component";
 import AnalyticsItem3 from "./analyticsItem3/AnalyticsItem3.component";
 import AnalyticsItem4 from "./analyticsItem4/AnalyticsItem4.component";
 import AnalyticsItem5 from "./analyticsItem5/AnalyticsItem5.component";
+import AnalyticsItem6 from "./analyticsItem6/AnalyticsItem6.component";
 
 import "./Analytics.styles.css";
-import AnalyticsItem6 from "./analyticsItem6/AnalyticsItem6.component";
-import AnalyticsItem7 from "./analyticsItem7/AnalyticsItem7.componenet";
 
 const Analytics = () => {
   return (

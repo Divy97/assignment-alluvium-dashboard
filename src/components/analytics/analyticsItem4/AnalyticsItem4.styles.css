@@ -8,3 +8,37 @@
   height: 15rem;
   border-radius: 0.5rem;
 }
+
+.analyticsItem4_p {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.analyticsItem4_running {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.6rem;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 0.3rem;
+  background-color: gray;
+}
+
+.analyticsItem4_left {
+  float: left;
+}
+
+.analyticsItem4_right {
+  float: right;
+}
+
+.analyticalItem4_para {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.analyticsItem4_span {
+  color: #000;
+  font-weight: bold;
+}

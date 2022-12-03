@@ -19,7 +19,7 @@
 .navigation_searchBar_icon {
   position: absolute;
   top: 2.5%;
-  left: 41.1%;
+  left: 41.5%;
   color: #fff;
   background-color: #373737;
   height: 1.6rem;
@@ -28,7 +28,7 @@
 }
 
 .navigation_utility_iconsContainer {
-  margin-left: 27rem;
+  margin-left: 25rem;
 }
 
 .navigation_utility_icon {

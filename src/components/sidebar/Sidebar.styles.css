@@ -1,3 +1,12 @@
+.background {
+  background-color: #c3c3c3;
+}
+
+.home_icon {
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
 .sidebar_container {
   height: 100vh;
   width: 11rem;
