@@ -26,7 +26,7 @@ const AnalyticsItem2 = () => {
       </div>
       <>
         <div className="analyticsItem2_graph background ">
-          <Doughnut data={data} aspectRatio="2/3" className=" background" />
+          <Doughnut data={data} className="background" />
           <p className="background  analyticsItem2_para_main">
             <span className="background analyticsItem2_para">7.5%</span>
             <br />

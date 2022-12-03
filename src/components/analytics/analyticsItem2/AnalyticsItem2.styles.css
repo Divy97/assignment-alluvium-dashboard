@@ -55,10 +55,43 @@
   right: 20%;
 }
 
-.analyticsItem2_para {
-  margin-left: 0.8rem;
+.analyticsItem2_para_main {
+  margin-top: 0rem;
+  margin-right: -0.4rem;
 }
 
+.analyticsItem2_para {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 830px) {
+  .analyticsItem2_container {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    width: 20rem;
+  }
+
+  .analyticsItem2_para_main {
+    margin-right: 8.3rem;
+    margin-top: 3rem;
+  }
+
+  .analyticsItem2_stats {
+    margin-top: -11rem;
+    margin-left: 9rem;
+  }
+
+  .para {
+    margin-top: 0.6rem;
+    padding: 1rem 0.3rem;
+  }
+
+  .analyticsItem2_graph {
+    height: 9.5rem;
+    width: 9.5rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   .analyticsItem2_container {
     position: absolute;
@@ -68,7 +101,7 @@
   }
 
   .analyticsItem2_para_main {
-    margin-right: 9.6rem;
+    margin-right: 9.9rem;
     margin-top: 3rem;
   }
 

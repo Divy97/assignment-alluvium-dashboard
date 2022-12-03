@@ -13,7 +13,7 @@ const App = () => {
       </div>
       <div className="otherItems">
         <NavigationBar />
-        {/* <Analytics /> */}
+        <Analytics />
       </div>
     </div>
   );

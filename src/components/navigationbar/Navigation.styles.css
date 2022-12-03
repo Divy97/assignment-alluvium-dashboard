@@ -84,45 +84,6 @@
   background-color: "#c3c3c3";
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .navigation_searchBar {
-    margin-left: -1rem;
-    padding-left: 1rem;
-    width: 20rem;
-    margin-top: 7rem;
-  }
-
-  .navigation_searchBar_icon {
-    top: 11.3%;
-    left: 80.5%;
-  }
-
-  .navigation_utility_iconsContainer {
-    display: flex;
-    margin-left: -13rem;
-    margin-top: 0rem;
-    font-size: 1.5rem;
-  }
-
-  .navigation_profile_container {
-    left: 4%;
-  }
-
-  .navigation_utility_arrowIcon {
-    display: none;
-  }
-
-  .navigation_span {
-    top: 1rem;
-    right: 3.5%;
-  }
-
-  .vertical {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 830px) {
   .navigation_container {
     width: 100%;
@@ -158,5 +119,44 @@
     top: 1.2%;
     right: 17.5%;
     padding: 0.2rem 1rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navigation_searchBar {
+    margin-left: -1rem;
+    padding-left: 1rem;
+    width: 20rem;
+    margin-top: 7rem;
+  }
+
+  .navigation_searchBar_icon {
+    top: 10%;
+    left: 80%;
+  }
+
+  .navigation_utility_iconsContainer {
+    display: flex;
+    margin-left: -13rem;
+    margin-top: 0rem;
+    font-size: 1.5rem;
+  }
+
+  .navigation_profile_container {
+    left: 4%;
+  }
+
+  .navigation_utility_arrowIcon {
+    display: none;
+  }
+
+  .navigation_span {
+    top: 1.5%;
+    right: 3.5%;
+  }
+
+  .vertical {
+    display: none;
   }
 }

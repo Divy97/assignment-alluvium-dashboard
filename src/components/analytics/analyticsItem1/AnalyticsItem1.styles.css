@@ -53,6 +53,39 @@
   margin-top: 2rem;
 }
 
+@media only screen and (max-width: 830px) {
+  .analyticsItem1_container {
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    width: 35rem;
+  }
+  .analyticsItem1_heading {
+    text-align: center;
+  }
+
+  .analyticsItem1_para {
+    text-align: center;
+  }
+
+  .stats_item {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .item1_icons,
+  .item1_span {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    background-color: #c3c3c3;
+  }
+
+  .item1_para {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .analyticsItem1_container {
     position: absolute;

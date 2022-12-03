@@ -26,6 +26,30 @@
   border-radius: 0.5rem;
 }
 
+@media only screen and (max-width: 830px) {
+  .analyticsItem6_container {
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    width: 35rem;
+  }
+
+  .left {
+    padding-left: 1rem;
+    height: 15rem;
+    width: 35rem;
+    float: left;
+  }
+
+  .right {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    height: 15rem;
+    width: 35rem;
+    float: left;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .analyticsItem6_container {
     position: absolute;
