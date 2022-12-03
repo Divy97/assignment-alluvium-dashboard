@@ -38,3 +38,24 @@
   width: 4rem;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  .analyticsItem5_container {
+    position: absolute;
+    top: 175%;
+    left: 0%;
+    width: 22rem;
+  }
+
+  .image1 {
+    margin-top: 2rem;
+  }
+
+  .p1 {
+    margin-left: 3rem;
+  }
+
+  .p2 {
+    margin-top: 2rem;
+  }
+}
