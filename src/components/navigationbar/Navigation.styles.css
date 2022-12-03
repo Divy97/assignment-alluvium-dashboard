@@ -123,40 +123,40 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
+  .navigation_container {
+    width: 100%;
+    height: 3rem;
+  }
+
   .navigation_searchBar {
-    margin-left: -1rem;
-    padding-left: 1rem;
-    width: 20rem;
-    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    width: 16rem;
   }
 
   .navigation_searchBar_icon {
-    top: 11.3%;
-    left: 80.5%;
+    top: 1.6%;
+    left: 47.5%;
   }
-
   .navigation_utility_iconsContainer {
-    display: flex;
-    margin-left: -13rem;
-    margin-top: 0rem;
-    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
   }
 
   .navigation_profile_container {
-    left: 4%;
+    top: 1%;
+    right: 2.5%;
   }
-
   .navigation_utility_arrowIcon {
-    display: none;
+    top: 1%;
+    right: 0.1%;
+    font-size: 1rem;
   }
 
   .navigation_span {
-    top: 1rem;
-    right: 3.5%;
-  }
-
-  .vertical {
-    display: none;
+    top: 1.2%;
+    right: 17.5%;
+    padding: 0.2rem 1rem;
   }
 }

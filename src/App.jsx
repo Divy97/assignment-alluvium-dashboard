@@ -12,8 +12,8 @@ const App = () => {
         <Sidebar />
       </div>
       <div className="otherItems">
-        {/* <NavigationBar />
-        <Analytics /> */}
+        <NavigationBar />
+        {/* <Analytics /> */}
       </div>
     </div>
   );
