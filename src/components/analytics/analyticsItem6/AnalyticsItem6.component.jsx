@@ -84,7 +84,7 @@ const AnalyticsItem6 = () => {
   return (
     <div className="analyticsItem6_container ">
       <div className="left  background">
-        <Line options={options2} data={data2} className="background" />;
+        <Line options={options2} data={data2} className="background" />
       </div>
       <div className="right background">
         <Bar options={options} data={data} className="background" />

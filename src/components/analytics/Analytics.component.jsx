@@ -25,10 +25,9 @@ const Analytics = () => {
       <div className="analytics_grid-item5">
         <AnalyticsItem5 />
       </div>
-      {/*<div className="analytics_grid-item6">
+      <div className="analytics_grid-item6">
         <AnalyticsItem6 />
-      </div>{" "}
-      */}
+      </div>
     </div>
   );
 };

@@ -25,3 +25,32 @@
   float: right;
   border-radius: 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .analyticsItem6_container {
+    position: absolute;
+    top: 215%;
+    left: 0%;
+    width: 20rem;
+  }
+
+  .analyticsItem6_container {
+    width: 22rem;
+  }
+
+  .left {
+    padding: 1rem;
+    padding-left: 0rem;
+    height: 12rem;
+    width: 22rem;
+    float: left;
+  }
+
+  .right {
+    margin-top: 1.5rem;
+    width: 22rem;
+    height: 12rem;
+    padding: 1rem;
+    float: left;
+  }
+}

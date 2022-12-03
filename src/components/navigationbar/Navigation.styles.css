@@ -94,7 +94,46 @@
   }
 
   .navigation_searchBar_icon {
+    top: 11.3%;
+    left: 80.5%;
+  }
+
+  .navigation_utility_iconsContainer {
+    display: flex;
+    margin-left: -13rem;
+    margin-top: 0rem;
+    font-size: 1.5rem;
+  }
+
+  .navigation_profile_container {
+    left: 4%;
+  }
+
+  .navigation_utility_arrowIcon {
     display: none;
+  }
+
+  .navigation_span {
+    top: 1rem;
+    right: 3.5%;
+  }
+
+  .vertical {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation_searchBar {
+    margin-left: -1rem;
+    padding-left: 1rem;
+    width: 20rem;
+    margin-top: 7rem;
+  }
+
+  .navigation_searchBar_icon {
+    top: 11.3%;
+    left: 80.5%;
   }
 
   .navigation_utility_iconsContainer {
