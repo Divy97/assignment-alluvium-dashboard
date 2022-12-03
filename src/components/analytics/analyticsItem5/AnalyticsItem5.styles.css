@@ -1,0 +1,40 @@
+.background {
+  background: #c3c3c3;
+}
+
+.analyticsItem5_container {
+  margin-left: 1rem;
+  width: auto;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.analyticsItem5_container .p {
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.p1 {
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+.p2 {
+  margin-left: -9.2rem;
+  margin-top: 2.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
