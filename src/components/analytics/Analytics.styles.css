@@ -1,9 +1,9 @@
 .analytics_grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 1rem;
-  column-gap: 0.2rem;
-  row-gap: 1rem;
+  margin-top: 0rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 
 .analytics_grid-item1 {
