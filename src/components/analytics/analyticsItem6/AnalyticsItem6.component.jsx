@@ -31,6 +31,9 @@ const AnalyticsItem6 = () => {
       legend: {
         position: "top",
       },
+      label: {
+        display: "none",
+      },
       title: {
         display: true,
         text: "Spare capacity",
@@ -56,22 +59,15 @@ const AnalyticsItem6 = () => {
       legend: {
         position: "top",
       },
+      label: {
+        display: "none",
+      },
       title: {
         display: true,
         text: "Throughput",
       },
     },
   };
-
-  const labels2 = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-  ];
 
   const data2 = {
     labels,

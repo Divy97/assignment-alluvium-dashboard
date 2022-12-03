@@ -28,14 +28,7 @@ const NavigationBar = () => {
         <AiOutlineMail className="navigation_utility_icon" />
         <AiOutlineSetting className="navigation_utility_icon" />
         <span className="navigation_span">Filter </span>
-        <HiOutlineAdjustmentsVertical
-          className="navigation_utility_icon"
-          style={{
-            position: "absolute",
-            right: "13%",
-            backgroundColor: "#c3c3c3",
-          }}
-        />
+        <HiOutlineAdjustmentsVertical className="background vertical" />
       </div>
       <div className="navigation_profile_container">
         <span>RABS </span>{" "}

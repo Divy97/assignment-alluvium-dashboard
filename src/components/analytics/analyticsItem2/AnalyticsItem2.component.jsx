@@ -27,18 +27,24 @@ const AnalyticsItem2 = () => {
       <>
         <div className="analyticsItem2_graph background ">
           <Doughnut data={data} aspectRatio="2/3" className=" background" />
-          <p className="background">
+          <p
+            className="background"
+            style={{
+              top: "25%",
+              right: "19.5%",
+              position: "absolute",
+            }}
+          >
             <span
               className="background"
               style={{
-                marginLeft: "1rem",
-                fontWeight: "bold",
+                paddingLeft: "0.6rem",
               }}
             >
               7.5%
-            </span>{" "}
+            </span>
             <br />
-            idle time{" "}
+            Idle time
           </p>
         </div>
         <div className="analyticsItem2_stats background">

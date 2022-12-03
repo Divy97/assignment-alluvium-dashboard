@@ -1,9 +1,9 @@
 import React from "react";
 import NavigationBar from "./components/navigationbar/Navigation.component";
 import Sidebar from "./components/sidebar/Sidebar.component";
+import Analytics from "./components/analytics/Analytics.component";
 
 import "./App.css";
-import Analytics from "./components/analytics/Analytics.component";
 
 const App = () => {
   return (
